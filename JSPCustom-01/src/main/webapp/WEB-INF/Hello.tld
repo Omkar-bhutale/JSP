@@ -1,0 +1,34 @@
+<taglib>
+   <jsp-version>2.1</jsp-version>
+	<tlib-version>1.0</tlib-version>
+	<tag>
+	   <name>hello</name>
+	   <tag-class>in.omkar.handler.HelloHandler</tag-class>
+	   <body-content>jsp</body-content>
+	   <attribute>
+	   			<name>name</name>
+	   			<required>false</required>
+	   </attribute>
+	</tag>
+	<tag>
+	   <name>place</name>
+	   <tag-class>in.omkar.handler.PlaceHandler</tag-class>
+	   <body-content>jsp</body-content>
+	   <attribute>
+	   			<name>where</name>
+	   			<required>true</required>
+	   </attribute>
+	  </tag>
+	  
+	  <tag>
+	   <name>itrate</name>
+	   <tag-class>in.omkar.handler.ItrateHandler</tag-class>
+	   <body-content>jsp</body-content>
+	   <attribute>
+	   			<name>info</name>
+	   			<required>false</required>
+	   			<name>count</name>
+	   			<required>true</required>
+	   </attribute>
+	</tag>
+</taglib>
